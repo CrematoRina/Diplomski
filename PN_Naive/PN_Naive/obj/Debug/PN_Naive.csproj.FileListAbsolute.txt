@@ -1,0 +1,18 @@
+c:\users\rina\documents\visual studio 2013\Projects\PN_Naive\PN_Naive\bin\Debug\PN_Naive.exe.config
+c:\users\rina\documents\visual studio 2013\Projects\PN_Naive\PN_Naive\bin\Debug\PN_Naive.exe
+c:\users\rina\documents\visual studio 2013\Projects\PN_Naive\PN_Naive\bin\Debug\PN_Naive.pdb
+c:\users\rina\documents\visual studio 2013\Projects\PN_Naive\PN_Naive\obj\Debug\PN_Naive.csprojResolveAssemblyReference.cache
+c:\users\rina\documents\visual studio 2013\Projects\PN_Naive\PN_Naive\obj\Debug\PN_Naive.Form1.resources
+c:\users\rina\documents\visual studio 2013\Projects\PN_Naive\PN_Naive\obj\Debug\PN_Naive.Properties.Resources.resources
+c:\users\rina\documents\visual studio 2013\Projects\PN_Naive\PN_Naive\obj\Debug\PN_Naive.csproj.GenerateResource.Cache
+c:\users\rina\documents\visual studio 2013\Projects\PN_Naive\PN_Naive\obj\Debug\PN_Naive.exe
+c:\users\rina\documents\visual studio 2013\Projects\PN_Naive\PN_Naive\obj\Debug\PN_Naive.pdb
+D:\dropbox\diplomski\Nikola Stevanovic 14525 C#\PN_Naive\PN_Naive\bin\Debug\PN_Naive.exe.config
+D:\dropbox\diplomski\Nikola Stevanovic 14525 C#\PN_Naive\PN_Naive\obj\Debug\PN_Naive.exe
+D:\dropbox\diplomski\Nikola Stevanovic 14525 C#\PN_Naive\PN_Naive\obj\Debug\PN_Naive.pdb
+D:\dropbox\diplomski\Nikola Stevanovic 14525 C#\PN_Naive\PN_Naive\bin\Debug\PN_Naive.exe
+D:\dropbox\diplomski\Nikola Stevanovic 14525 C#\PN_Naive\PN_Naive\bin\Debug\PN_Naive.pdb
+D:\dropbox\diplomski\Nikola Stevanovic 14525 C#\PN_Naive\PN_Naive\obj\Debug\PN_Naive.csprojResolveAssemblyReference.cache
+D:\dropbox\diplomski\Nikola Stevanovic 14525 C#\PN_Naive\PN_Naive\obj\Debug\PN_Naive.Form1.resources
+D:\dropbox\diplomski\Nikola Stevanovic 14525 C#\PN_Naive\PN_Naive\obj\Debug\PN_Naive.Properties.Resources.resources
+D:\dropbox\diplomski\Nikola Stevanovic 14525 C#\PN_Naive\PN_Naive\obj\Debug\PN_Naive.csproj.GenerateResource.Cache

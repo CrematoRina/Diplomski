@@ -1,0 +1,18 @@
+c:\users\rina\documents\visual studio 2013\Projects\PN_MRalg\PN_MRalg\bin\Debug\PN_MRalg.exe.config
+c:\users\rina\documents\visual studio 2013\Projects\PN_MRalg\PN_MRalg\bin\Debug\PN_MRalg.exe
+c:\users\rina\documents\visual studio 2013\Projects\PN_MRalg\PN_MRalg\bin\Debug\PN_MRalg.pdb
+c:\users\rina\documents\visual studio 2013\Projects\PN_MRalg\PN_MRalg\obj\Debug\PN_MRalg.csprojResolveAssemblyReference.cache
+c:\users\rina\documents\visual studio 2013\Projects\PN_MRalg\PN_MRalg\obj\Debug\PN_MRalg.Form1.resources
+c:\users\rina\documents\visual studio 2013\Projects\PN_MRalg\PN_MRalg\obj\Debug\PN_MRalg.Properties.Resources.resources
+c:\users\rina\documents\visual studio 2013\Projects\PN_MRalg\PN_MRalg\obj\Debug\PN_MRalg.csproj.GenerateResource.Cache
+c:\users\rina\documents\visual studio 2013\Projects\PN_MRalg\PN_MRalg\obj\Debug\PN_MRalg.exe
+c:\users\rina\documents\visual studio 2013\Projects\PN_MRalg\PN_MRalg\obj\Debug\PN_MRalg.pdb
+D:\dropbox\diplomski\Nikola Stevanovic 14525 C#\PN_MRalg\PN_MRalg\bin\Debug\PN_MRalg.exe.config
+D:\dropbox\diplomski\Nikola Stevanovic 14525 C#\PN_MRalg\PN_MRalg\obj\Debug\PN_MRalg.exe
+D:\dropbox\diplomski\Nikola Stevanovic 14525 C#\PN_MRalg\PN_MRalg\obj\Debug\PN_MRalg.pdb
+D:\dropbox\diplomski\Nikola Stevanovic 14525 C#\PN_MRalg\PN_MRalg\bin\Debug\PN_MRalg.exe
+D:\dropbox\diplomski\Nikola Stevanovic 14525 C#\PN_MRalg\PN_MRalg\bin\Debug\PN_MRalg.pdb
+D:\dropbox\diplomski\Nikola Stevanovic 14525 C#\PN_MRalg\PN_MRalg\obj\Debug\PN_MRalg.csprojResolveAssemblyReference.cache
+D:\dropbox\diplomski\Nikola Stevanovic 14525 C#\PN_MRalg\PN_MRalg\obj\Debug\PN_MRalg.Form1.resources
+D:\dropbox\diplomski\Nikola Stevanovic 14525 C#\PN_MRalg\PN_MRalg\obj\Debug\PN_MRalg.Properties.Resources.resources
+D:\dropbox\diplomski\Nikola Stevanovic 14525 C#\PN_MRalg\PN_MRalg\obj\Debug\PN_MRalg.csproj.GenerateResource.Cache

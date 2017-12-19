@@ -1,0 +1,18 @@
+c:\users\rina\documents\visual studio 2013\Projects\PN_SSalg\PN_SSalg\bin\Debug\PN_SSalg.exe.config
+c:\users\rina\documents\visual studio 2013\Projects\PN_SSalg\PN_SSalg\bin\Debug\PN_SSalg.exe
+c:\users\rina\documents\visual studio 2013\Projects\PN_SSalg\PN_SSalg\bin\Debug\PN_SSalg.pdb
+c:\users\rina\documents\visual studio 2013\Projects\PN_SSalg\PN_SSalg\obj\Debug\PN_SSalg.csprojResolveAssemblyReference.cache
+c:\users\rina\documents\visual studio 2013\Projects\PN_SSalg\PN_SSalg\obj\Debug\PN_SSalg.Form1.resources
+c:\users\rina\documents\visual studio 2013\Projects\PN_SSalg\PN_SSalg\obj\Debug\PN_SSalg.Properties.Resources.resources
+c:\users\rina\documents\visual studio 2013\Projects\PN_SSalg\PN_SSalg\obj\Debug\PN_SSalg.csproj.GenerateResource.Cache
+c:\users\rina\documents\visual studio 2013\Projects\PN_SSalg\PN_SSalg\obj\Debug\PN_SSalg.exe
+c:\users\rina\documents\visual studio 2013\Projects\PN_SSalg\PN_SSalg\obj\Debug\PN_SSalg.pdb
+D:\dropbox\diplomski\Nikola Stevanovic 14525 C#\PN_SSalg\PN_SSalg\bin\Debug\PN_SSalg.exe.config
+D:\dropbox\diplomski\Nikola Stevanovic 14525 C#\PN_SSalg\PN_SSalg\obj\Debug\PN_SSalg.exe
+D:\dropbox\diplomski\Nikola Stevanovic 14525 C#\PN_SSalg\PN_SSalg\obj\Debug\PN_SSalg.pdb
+D:\dropbox\diplomski\Nikola Stevanovic 14525 C#\PN_SSalg\PN_SSalg\bin\Debug\PN_SSalg.exe
+D:\dropbox\diplomski\Nikola Stevanovic 14525 C#\PN_SSalg\PN_SSalg\bin\Debug\PN_SSalg.pdb
+D:\dropbox\diplomski\Nikola Stevanovic 14525 C#\PN_SSalg\PN_SSalg\obj\Debug\PN_SSalg.csprojResolveAssemblyReference.cache
+D:\dropbox\diplomski\Nikola Stevanovic 14525 C#\PN_SSalg\PN_SSalg\obj\Debug\PN_SSalg.Form1.resources
+D:\dropbox\diplomski\Nikola Stevanovic 14525 C#\PN_SSalg\PN_SSalg\obj\Debug\PN_SSalg.Properties.Resources.resources
+D:\dropbox\diplomski\Nikola Stevanovic 14525 C#\PN_SSalg\PN_SSalg\obj\Debug\PN_SSalg.csproj.GenerateResource.Cache
