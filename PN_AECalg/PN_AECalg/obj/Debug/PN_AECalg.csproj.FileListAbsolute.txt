@@ -16,3 +16,12 @@ D:\dropbox\diplomski\Nikola Stevanovic 14525 C#\PN_AECalg\PN_AECalg\obj\Debug\PN
 D:\dropbox\diplomski\Nikola Stevanovic 14525 C#\PN_AECalg\PN_AECalg\obj\Debug\PN_AECalg.Form1.resources
 D:\dropbox\diplomski\Nikola Stevanovic 14525 C#\PN_AECalg\PN_AECalg\obj\Debug\PN_AECalg.Properties.Resources.resources
 D:\dropbox\diplomski\Nikola Stevanovic 14525 C#\PN_AECalg\PN_AECalg\obj\Debug\PN_AECalg.csproj.GenerateResource.Cache
+D:\dropbox\diplomski\Nikola Stevanovic 14525 C#\Diplomski\PN_AECalg\PN_AECalg\bin\Debug\PN_AECalg.exe.config
+D:\dropbox\diplomski\Nikola Stevanovic 14525 C#\Diplomski\PN_AECalg\PN_AECalg\obj\Debug\PN_AECalg.exe
+D:\dropbox\diplomski\Nikola Stevanovic 14525 C#\Diplomski\PN_AECalg\PN_AECalg\obj\Debug\PN_AECalg.pdb
+D:\dropbox\diplomski\Nikola Stevanovic 14525 C#\Diplomski\PN_AECalg\PN_AECalg\bin\Debug\PN_AECalg.exe
+D:\dropbox\diplomski\Nikola Stevanovic 14525 C#\Diplomski\PN_AECalg\PN_AECalg\bin\Debug\PN_AECalg.pdb
+D:\dropbox\diplomski\Nikola Stevanovic 14525 C#\Diplomski\PN_AECalg\PN_AECalg\obj\Debug\PN_AECalg.csprojResolveAssemblyReference.cache
+D:\dropbox\diplomski\Nikola Stevanovic 14525 C#\Diplomski\PN_AECalg\PN_AECalg\obj\Debug\PN_AECalg.Form1.resources
+D:\dropbox\diplomski\Nikola Stevanovic 14525 C#\Diplomski\PN_AECalg\PN_AECalg\obj\Debug\PN_AECalg.Properties.Resources.resources
+D:\dropbox\diplomski\Nikola Stevanovic 14525 C#\Diplomski\PN_AECalg\PN_AECalg\obj\Debug\PN_AECalg.csproj.GenerateResource.Cache
