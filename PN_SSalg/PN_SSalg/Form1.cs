@@ -8,17 +8,19 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Numerics;
+using System.Diagnostics;
 
 namespace PN_SSalg
 {
     public partial class Form1 : Form
     {
 
-        private bool result;
+        private int result;
         private SSalg ss;
         private BigInteger N;
         private BackgroundWorker bw;
-        private DateTime dt0, dt1;
+       // private DateTime dt0, dt1;
+        Stopwatch sw = new Stopwatch();
 
         public Form1()
         {
@@ -43,7 +45,7 @@ namespace PN_SSalg
             }
         }
 
-        private BigInteger Horner(string s)
+        private BigInteger ToNumber(string s)
         {
             BigInteger result = new BigInteger((int)(s[0] - '0'));
 
@@ -55,9 +57,13 @@ namespace PN_SSalg
 
         private void button1_Click(object sender, EventArgs e)
         {
-            N = Horner(textBox1.Text);
+            try
+            {
+                if (button1.Text == "&Test")
+                {
+            N = ToNumber(textBox1.Text);
             bw = new BackgroundWorker();
-            ss = new SSalg(1);
+            ss = new SSalg(1,bw);
             bw.WorkerSupportsCancellation = true;
             bw.DoWork += new DoWorkEventHandler(bw_DoWork);
             bw.RunWorkerCompleted +=
@@ -66,24 +72,40 @@ namespace PN_SSalg
             while (!bw.IsBusy) { }
             button1.Text = "&Stop";
             textBox2.Text = string.Empty;
+                }
+                else
+                    bw.CancelAsync();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.ToString(), "Warning",
+                    MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
         }
 
         private void bw_DoWork(object sender, DoWorkEventArgs e)
         {
-            dt0 = DateTime.Now;
+            //dt0 = DateTime.Now;
+            sw = Stopwatch.StartNew();
             result = ss.Composite(N, 10000);
-            dt1 = DateTime.Now;
+            //dt1 = DateTime.Now;
+            sw.Stop();
         }
 
         private void bw_RunWorkerCompleted(object sender, RunWorkerCompletedEventArgs e)
         {
-            if (result == true)
+            if (result == 1)
 
                 SetText("Number is prime\r\n");
-            else
+            else if (result == 0)
                 SetText("Number is not prime\r\n");
+            else if (result == -1)
+            {
+                MessageBox.Show("SS algorithm cancelled", "Warning",
+                    MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
 
-            TimeSpan ts = dt1 - dt0;
+            TimeSpan ts = sw.Elapsed;
             string text = string.Empty;
 
             text += ts.Hours.ToString("D2") + ":";

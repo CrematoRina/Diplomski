@@ -16,3 +16,12 @@ D:\dropbox\diplomski\Nikola Stevanovic 14525 C#\PN_SSalg\PN_SSalg\obj\Debug\PN_S
 D:\dropbox\diplomski\Nikola Stevanovic 14525 C#\PN_SSalg\PN_SSalg\obj\Debug\PN_SSalg.Form1.resources
 D:\dropbox\diplomski\Nikola Stevanovic 14525 C#\PN_SSalg\PN_SSalg\obj\Debug\PN_SSalg.Properties.Resources.resources
 D:\dropbox\diplomski\Nikola Stevanovic 14525 C#\PN_SSalg\PN_SSalg\obj\Debug\PN_SSalg.csproj.GenerateResource.Cache
+D:\dropbox\diplomski\Nikola Stevanovic 14525 C#\Diplomski\PN_SSalg\PN_SSalg\bin\Debug\PN_SSalg.exe.config
+D:\dropbox\diplomski\Nikola Stevanovic 14525 C#\Diplomski\PN_SSalg\PN_SSalg\obj\Debug\PN_SSalg.exe
+D:\dropbox\diplomski\Nikola Stevanovic 14525 C#\Diplomski\PN_SSalg\PN_SSalg\obj\Debug\PN_SSalg.pdb
+D:\dropbox\diplomski\Nikola Stevanovic 14525 C#\Diplomski\PN_SSalg\PN_SSalg\bin\Debug\PN_SSalg.exe
+D:\dropbox\diplomski\Nikola Stevanovic 14525 C#\Diplomski\PN_SSalg\PN_SSalg\bin\Debug\PN_SSalg.pdb
+D:\dropbox\diplomski\Nikola Stevanovic 14525 C#\Diplomski\PN_SSalg\PN_SSalg\obj\Debug\PN_SSalg.csprojResolveAssemblyReference.cache
+D:\dropbox\diplomski\Nikola Stevanovic 14525 C#\Diplomski\PN_SSalg\PN_SSalg\obj\Debug\PN_SSalg.Form1.resources
+D:\dropbox\diplomski\Nikola Stevanovic 14525 C#\Diplomski\PN_SSalg\PN_SSalg\obj\Debug\PN_SSalg.Properties.Resources.resources
+D:\dropbox\diplomski\Nikola Stevanovic 14525 C#\Diplomski\PN_SSalg\PN_SSalg\obj\Debug\PN_SSalg.csproj.GenerateResource.Cache

@@ -15,7 +15,7 @@ namespace PN_AECalg
         {
             random = new Random(seed);
         }
-        // HAC A4.24
+        // HAC A4.24 (MR test)
         public bool Composite(BigInteger n, int t)
         {
             if (n == 2 || n == 3)

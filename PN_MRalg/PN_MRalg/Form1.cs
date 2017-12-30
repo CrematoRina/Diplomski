@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Numerics;
+using System.Diagnostics;
 
 namespace PN_MRalg
 {
@@ -17,7 +18,8 @@ namespace PN_MRalg
         private MRalg mr;
         private BigInteger N;
         private BackgroundWorker bw;
-        private DateTime dt0, dt1;
+       // private DateTime dt0, dt1;
+        Stopwatch sw = new Stopwatch();
 
         public Form1()
         {
@@ -42,7 +44,7 @@ namespace PN_MRalg
             }
         }
 
-        private BigInteger Horner(string s)
+        private BigInteger ToNumber(string s)
         {
             BigInteger result = new BigInteger((int)(s[0] - '0'));
 
@@ -52,20 +54,11 @@ namespace PN_MRalg
             return result;
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-          
-        }
 
         private void button1_Click_1(object sender, EventArgs e)
         {
-            // try
-            //{
-            //if (button1.Text == "&Test")
-            // {
-            //long B0 = long.Parse((string)comboBox1.SelectedItem);
 
-            N = Horner(textBox1.Text);
+            N = ToNumber(textBox1.Text);
             bw = new BackgroundWorker();
             mr = new MRalg(100);
             bw.WorkerSupportsCancellation = true;
@@ -76,22 +69,19 @@ namespace PN_MRalg
             while (!bw.IsBusy) { }
             button1.Text = "&Stop";
             textBox2.Text = string.Empty;
-            //}
-            // else
-            // bw.CancelAsync();
-            //   }
-            // catch (Exception ex)
-            //  {
-            //      MessageBox.Show(ex.ToString(), "Warning",
-            //     MessageBoxButtons.OK, MessageBoxIcon.Warning);
-            // }
+
         }
 
         private void bw_DoWork(object sender, DoWorkEventArgs e)
         {
-            dt0 = DateTime.Now;
+           // dt0 = DateTime.Now;
+            sw = Stopwatch.StartNew();
+
             result = mr.Composite(N, 20);
-            dt1 = DateTime.Now;
+            sw.Stop();
+            
+
+          //  dt1 = DateTime.Now;
         }
 
         private void bw_RunWorkerCompleted(object sender, RunWorkerCompletedEventArgs e)
@@ -101,14 +91,21 @@ namespace PN_MRalg
                 SetText("Number is not prime\r\n");
             else
                 SetText("Number is prime\r\n");
-
-            TimeSpan ts = dt1 - dt0;
+            //DateTime t = dt1 - dt0;
+            TimeSpan ts = sw.Elapsed;
+            //sw.Reset();
             string text = string.Empty;
 
             text += ts.Hours.ToString("D2") + ":";
             text += ts.Minutes.ToString("D2") + ":";
             text += ts.Seconds.ToString("D2") + ".";
             text += ts.Milliseconds.ToString("D3");
+
+           // string elapsedTime = String.Format("{0:00}:{1:00}:{2:00}.{3:000}",
+          // ts.Hours, ts.Minutes, ts.Seconds,
+          // ts.Milliseconds);
+            //text = elapsedTime;
+
             SetText(text);
             button1.Text = "&Test";
         }

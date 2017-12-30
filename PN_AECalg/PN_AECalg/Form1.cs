@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Numerics;
+using System.Diagnostics;
 
 namespace PN_AECalg
 {
@@ -17,8 +18,8 @@ namespace PN_AECalg
         private AECalg aa;
         private BigInteger N;
         private BackgroundWorker bw;
-        private DateTime dt0, dt1;
-
+        //private DateTime dt0, dt1;
+        Stopwatch sw = new Stopwatch();
         public Form1()
         {
             InitializeComponent();
@@ -86,9 +87,11 @@ namespace PN_AECalg
 
         private void bw_DoWork(object sender, DoWorkEventArgs e)
         {
-            dt0 = DateTime.Now;
+            //dt0 = DateTime.Now;
+            sw = Stopwatch.StartNew();
             result = aa.Atkin(N);
-            dt1 = DateTime.Now;
+            //dt1 = DateTime.Now;
+            sw.Stop();
         }
 
         private void bw_RunWorkerCompleted(object sender, RunWorkerCompletedEventArgs e)
@@ -126,7 +129,7 @@ namespace PN_AECalg
             else if (result == 1)
                 SetText("Number is proven prime\r\n");
 
-            TimeSpan ts = dt1 - dt0;
+            TimeSpan ts = sw.Elapsed;
             string text = string.Empty;
 
             text += ts.Hours.ToString("D2") + ":";

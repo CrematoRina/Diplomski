@@ -38,7 +38,8 @@ namespace PN_AECalg
         {
             public BigInteger x, y;
         }
-
+        
+        //Digit-by-digit algorithm for square root (wiki)
         private BigInteger Sqrt(BigInteger n)
         {
             if (n == 0)
@@ -54,6 +55,7 @@ namespace PN_AECalg
             else
                 return s;
         }
+
         //Cohen A1.7.3
         private bool SquareTest(BigInteger n, ref BigInteger s)
         {

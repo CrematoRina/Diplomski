@@ -4,17 +4,20 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Numerics;
+using System.ComponentModel;
 
 namespace PN_SSalg
 {
     class SSalg
     {
 
+        private BackgroundWorker bw;
         private Random random;
 
-        public SSalg(int seed)
+        public SSalg(int seed, BackgroundWorker bw)
         {
             random = new Random(seed);
+            this.bw = bw;
         }
         // HAC A2.149
         public int Jacobi(BigInteger a, BigInteger n)
@@ -101,25 +104,28 @@ namespace PN_SSalg
             }
         }
         //HAC A4.18
-        public bool Composite(BigInteger n, int t)
+        public int Composite(BigInteger n, int t)
         {
             BigInteger n1 = n - 1, n2 = n - 2, n12 = n1 / 2;
 
             for (int i = 1; i <= t; i++)
             {
+                if (bw.CancellationPending)
+                    return -1;
+
                 BigInteger a = RandomRange(2, n2);
                 BigInteger r = BigInteger.ModPow(a, n12, n);
 
                 if (r != 1 && r != n1)
-                    return false;
+                    return 0;
 
                 int s = Jacobi(a, n);
 
                 if (!(r == s) && !(s == -1 && r == n1))
-                    return false;
+                    return 0;
             }
 
-            return true;
+            return 1;
         }
     }
 }

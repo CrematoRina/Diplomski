@@ -16,3 +16,12 @@ D:\dropbox\diplomski\Nikola Stevanovic 14525 C#\PN_Naive\PN_Naive\obj\Debug\PN_N
 D:\dropbox\diplomski\Nikola Stevanovic 14525 C#\PN_Naive\PN_Naive\obj\Debug\PN_Naive.Form1.resources
 D:\dropbox\diplomski\Nikola Stevanovic 14525 C#\PN_Naive\PN_Naive\obj\Debug\PN_Naive.Properties.Resources.resources
 D:\dropbox\diplomski\Nikola Stevanovic 14525 C#\PN_Naive\PN_Naive\obj\Debug\PN_Naive.csproj.GenerateResource.Cache
+D:\dropbox\diplomski\Nikola Stevanovic 14525 C#\Diplomski\PN_Naive\PN_Naive\bin\Debug\PN_Naive.exe.config
+D:\dropbox\diplomski\Nikola Stevanovic 14525 C#\Diplomski\PN_Naive\PN_Naive\obj\Debug\PN_Naive.exe
+D:\dropbox\diplomski\Nikola Stevanovic 14525 C#\Diplomski\PN_Naive\PN_Naive\obj\Debug\PN_Naive.pdb
+D:\dropbox\diplomski\Nikola Stevanovic 14525 C#\Diplomski\PN_Naive\PN_Naive\bin\Debug\PN_Naive.exe
+D:\dropbox\diplomski\Nikola Stevanovic 14525 C#\Diplomski\PN_Naive\PN_Naive\bin\Debug\PN_Naive.pdb
+D:\dropbox\diplomski\Nikola Stevanovic 14525 C#\Diplomski\PN_Naive\PN_Naive\obj\Debug\PN_Naive.csprojResolveAssemblyReference.cache
+D:\dropbox\diplomski\Nikola Stevanovic 14525 C#\Diplomski\PN_Naive\PN_Naive\obj\Debug\PN_Naive.Form1.resources
+D:\dropbox\diplomski\Nikola Stevanovic 14525 C#\Diplomski\PN_Naive\PN_Naive\obj\Debug\PN_Naive.Properties.Resources.resources
+D:\dropbox\diplomski\Nikola Stevanovic 14525 C#\Diplomski\PN_Naive\PN_Naive\obj\Debug\PN_Naive.csproj.GenerateResource.Cache
