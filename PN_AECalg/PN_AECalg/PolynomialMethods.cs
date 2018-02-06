@@ -316,7 +316,7 @@ namespace PN_AECalg
             c = PolyCopy(tc);
             return c;
         }
-        //Cohe A3.3.1
+        //Cohen A3.3.1
         public List<BigInteger> PolyGCDMod(BigInteger p, List<BigInteger> A, List<BigInteger> B)
         {
             bool nonzero = false;
@@ -352,7 +352,7 @@ namespace PN_AECalg
 
             return a;
         }
-
+        //Cohen A1.6.1 part
         private void Recurse(BigInteger p, List<BigInteger> A, ref List<BigInteger> root)
         {
             int count = 0, degreeA = A.Count - 1, degreeB = 0;
@@ -477,7 +477,7 @@ namespace PN_AECalg
 
             return s;
         }
-        //Cohen A1.6.1
+        //Cohen A1.6.1 part
         public void FindRootsModuloPrime(BigInteger p, List<BigInteger> P,
             ref List<BigInteger> root)
         {

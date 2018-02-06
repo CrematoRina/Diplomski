@@ -424,19 +424,41 @@ namespace PN_AECalg
 
             return null;
         }
-
+        //Cohen D5.1.2
         private long NextDiscriminant(ref long previous)
         {
-            long D, modD4;
+            bool free, free1;
+            long D = 0, modD4, modD16, D4;
 
             while (true)
             {
+                free = true;
+                free1 = true;
                 previous++;
                 D = previous;
                 modD4 = D % 4;
+                D4 = D / 4;
+                //square free D
+                for (int i = 3; i * i <= D; i++)
+                {
+                    if (D % (i * i) == 0)
+                    {
+                        free = false;
+                    }
+                }
+                //square free D/4
+                for (int i = 3; i * i <= D4; i++)
+                {
+                    if (D4 % (i * i) == 0)
+                    {
+                        free1 = false;
+                    }
+                }
 
-                if (modD4 == 0 || modD4 == 1)
+                if ((modD4 == 1 && free) || (modD4 == 0 && free1))
                     return -D;
+
+
             }
         }
         //Cohen A9.2.4
@@ -454,7 +476,7 @@ namespace PN_AECalg
 
             bool rm = false;
             int cs = 2, i = 0, jac = 0, n = -1;
-            long D = 0, k = 0, lNi, slNi, previous = 3;
+            long D = 0, k = 0, lNi, slNi, previous = 0;
             string text = string.Empty;
             BigInteger a = 0, ainv = 0, b = 0, c = 0, sc = 0, jRoot = 0, m = 0;
             BigInteger g = 0, Ni = N, q = 0, x = 0, y = 0;

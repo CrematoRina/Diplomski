@@ -25,3 +25,4 @@ D:\dropbox\diplomski\Nikola Stevanovic 14525 C#\Diplomski\PN_MRalg\PN_MRalg\obj\
 D:\dropbox\diplomski\Nikola Stevanovic 14525 C#\Diplomski\PN_MRalg\PN_MRalg\obj\Debug\PN_MRalg.Form1.resources
 D:\dropbox\diplomski\Nikola Stevanovic 14525 C#\Diplomski\PN_MRalg\PN_MRalg\obj\Debug\PN_MRalg.Properties.Resources.resources
 D:\dropbox\diplomski\Nikola Stevanovic 14525 C#\Diplomski\PN_MRalg\PN_MRalg\obj\Debug\PN_MRalg.csproj.GenerateResource.Cache
+D:\dropbox\diplomski\Nikola Stevanovic 14525 C#\Diplomski\PN_MRalg\PN_MRalg\obj\Debug\PN_MRalg.csproj.CoreCompileInputs.cache
